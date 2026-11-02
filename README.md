@@ -1,21 +1,33 @@
 # HN Accessible Reader
 
-**For Mac only, currently. macOS 12 or later.**
+**A talking Hacker News shortcut for Mac.**
 
-Press **Command + 1** to hear your latest Hacker News post and the latest interactions on it: points, comment count, comments, and replies.
+Check your latest post without opening a browser. Press **Command + 1** to hear its title, score, comment count, and the comments and replies. Press **Escape** to stop.
 
-Made for blind and low-vision users. Press **Escape** to stop.
+Built for blind and low-vision Mac users.
 
-## How to use it
+[Download for Mac](https://github.com/The-blind-developer/hn-accessible-reader/releases/latest)
 
-1. [Download HN-Accessible-Reader-macOS.zip](https://github.com/The-blind-developer/hn-accessible-reader/releases/latest).
-2. Unzip it, move **HN Accessible Reader.app** to **Applications**, and open it.
-3. Enter your **Hacker News username** and click **Save username**. No password is needed.
-4. Keep the app running. Press **Command + 1** whenever you want an update.
-5. Press **Escape** to stop reading.
+**Mac only.** Requires macOS 12 or later. Works on Apple silicon and Intel Macs.
 
-Works on Apple silicon and Intel Macs. Internet is required. Reading is in English in this version. No Windows or phone version is available.
+## Get started
 
-This community app is not Apple-notarized, so macOS may ask you to approve opening it. See [more details](DETAILS.md) for first-open help, privacy, shortcut conflicts, and building from source. It is an independent reader using the official public Hacker News API; it cannot post or vote. Points include the post's starting point.
+1. Download the ZIP above and unzip it.
+2. Move **HN Accessible Reader.app** to **Applications** and open it.
+3. Enter your **Hacker News username** and choose **Save username**.
+4. Press **Command + 1** whenever you want to check your latest post.
+
+Keep the app running for the shortcut to work. You can also choose **Read latest post** from the **HN Reader** menu in the menu bar.
+
+## A few things to know
+
+- Reads in English and needs an internet connection.
+- Uses public Hacker News data. No login or API key is required.
+- Reads only; it cannot post or vote. The score includes the post's starting point.
+- Available for Mac only; there is no Windows or mobile version.
+
+The app is not Apple-notarized, so macOS may ask you to approve it the first time you open it. See [setup and privacy details](DETAILS.md) for more information.
+
+Found a problem or have a suggestion? [Open an issue](https://github.com/The-blind-developer/hn-accessible-reader/issues).
 
 [MIT license](LICENSE)
